@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f2e8">
+  <meta name="description" content="Miga & Fuego: del pan de cada mañana a la pizza de esta noche. Explora esta demo visual de una panadería y pizzería artesanal.">
+  <meta property="og:title" content="Miga & Fuego — Del horno a tu mesa">
+  <meta property="og:description" content="Pan recién horneado, pizzas artesanales y el sabor que reúne a todos. Demo visual.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://miga-fuego-horno-artesanal.earthychair8192.chatgpt.site">
+  <meta property="og:image" content="https://miga-fuego-horno-artesanal.earthychair8192.chatgpt.site/assets/bread.jpg">
+  <title>Miga & Fuego — Del horno a tu mesa</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preload" href="assets/bread.jpg" as="image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+<div class="demo-bar">UN ADELANTO DE LO QUE VIENE <span>·</span> Demo visual · Marca y datos de ejemplo</div>
+<header id="header">
+  <div class="nav-wrap container">
+    <a class="brand" href="#inicio" aria-label="Miga y Fuego, inicio"><span class="brand-icon" data-icon="oven"></span><span>Miga <i>&</i> Fuego<small>PANADERÍA & PIZZERÍA</small></span></a>
+    <nav id="navigation" aria-label="Navegación principal">
+      <a href="#inicio" class="active">Inicio</a><a href="#panaderia">Panadería</a><a href="#pizzeria">Pizzería</a><a href="#promociones">Promociones</a><a href="#nosotros">Nosotros</a><a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a href="#antojos" class="button nav-cta">Ver productos <span data-icon="arrow"></span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+  </div>
+</header>
+<main id="contenido">
+  <section class="hero container" id="inicio">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="little-line"></span> UN HORNO. MUCHAS GANAS DE COMPARTIR.</p>
+      <h1>Del horno<br>a tu <em>mesa.</em></h1>
+      <p class="hero-description">Pan recién horneado, pizzas artesanales y el sabor que reúne a todos.</p>
+      <div class="hero-actions"><a class="button" href="#panaderia"><span data-icon="bread"></span> Explorar panadería <span data-icon="arrow"></span></a><a class="button button-outline" href="#pizzeria"><span data-icon="pizza"></span> Explorar pizzería</a></div>
+      <div class="hero-footnote"><span class="handwritten">Lo bueno se hace con tiempo.</span><span class="drawn-arrow" aria-hidden="true">⤴</span><span class="mini-note">Masa hecha a mano.<br>Momentos hechos en familia.</span></div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-photo"><img src="assets/bread.jpg" alt="Panes artesanales dorados y espolvoreados con harina" width="900" height="1100" fetchpriority="high"><span class="photo-label">01 / EL PAN DE CADA DÍA</span></div>
+      <div class="artisan-seal"><span>HECHO CON CALMA</span><span data-icon="wheat"></span><span>SERVIDO CON AMOR</span></div>
+      <div class="pizza-polaroid"><img src="assets/pizza.jpg" alt="Pizza artesanal de pepperoni sobre una tabla" width="400" height="300"><span>…y por la noche, pizza.</span><span data-icon="sparkle"></span></div>
+      <span class="hero-side-note">HARINA, FUEGO Y UN POCO DE CARIÑO.</span>
+    </div>
+    <a class="scroll-cue" href="#antojos"><span data-icon="down"></span> SIGUE EL AROMA</a>
+  </section>
+  <div class="values-strip" aria-label="Nuestra propuesta"><div class="container"><span data-icon="wheat"></span><span>Ingredientes sencillos</span><b>✳</b><span>Hecho a mano</span><b>✳</b><span>Recién salido del horno</span><b>✳</b><span>Sabe a casa</span><span data-icon="wheat"></span></div></div>
+  <section id="antojos" class="section container reveal">
+    <div class="section-heading centered"><p class="eyebrow">CADA MOMENTO TIENE SU SABOR</p><h2>¿Qué se te <em>antoja?</em></h2><p>Hay días que empiezan con pan. Y otros que terminan con pizza.</p></div>
+    <div class="choice-grid">
+      <a href="#panaderia" class="choice-card"><img src="assets/croissant.jpg" alt="Croissant de mantequilla, dorado y crujiente" loading="lazy" width="800" height="600"><div class="choice-overlay"><p class="eyebrow">EL AROMA DE TODOS LOS DÍAS</p><h3>Panadería</h3><span>Descubrir panes <span class="circle-arrow" data-icon="arrow"></span></span></div><span class="choice-number">01</span></a>
+      <a href="#pizzeria" class="choice-card"><img src="assets/pizza.jpg" alt="Pizza de pepperoni para compartir" loading="lazy" width="800" height="600"><div class="choice-overlay"><p class="eyebrow">UNA PIZZA SIEMPRE ES BUENA IDEA</p><h3>Pizzería</h3><span>Descubrir pizzas <span class="circle-arrow" data-icon="arrow"></span></span></div><span class="choice-number">02</span></a>
+    </div>
+  </section>
+  <section id="panaderia" class="section bakery-section">
+    <div class="container reveal"><div class="section-heading heading-row"><div><p class="eyebrow"><span data-icon="bread"></span> NUESTRAS MAÑANAS</p><h2>El pan de <em>siempre.</em><br>Recién hecho.</h2></div><p>Ese primer crujido. El olor a mantequilla.<br>Pequeñas cosas que hacen grande tu día.</p></div>
+    <div class="catalog-toolbar"><div class="filters" role="group" aria-label="Filtrar productos de panadería"><button class="filter active" data-filter="Todos" aria-pressed="true">Todos</button><button class="filter" data-filter="Panes" aria-pressed="false">Panes</button><button class="filter" data-filter="Dulces" aria-pressed="false">Dulces</button><button class="filter" data-filter="Salados" aria-pressed="false">Salados</button></div><span class="catalog-note">Precios de ejemplo · S/</span></div>
+    <p id="filter-status" class="sr-only" aria-live="polite"></p><div id="bread-grid" class="product-grid"></div>
+    <p class="section-note"><span data-icon="sun"></span> Un buen día empieza con algo recién horneado.</p></div>
+  </section>
+  <section id="pizzeria" class="section pizza-section">
+    <div class="container reveal"><div class="section-heading heading-row"><div><p class="eyebrow"><span data-icon="flame"></span> CUANDO CAE LA TARDE</p><h2>Enciende la noche.<br><em>Comparte una pizza.</em></h2></div><div><p>Masa artesanal, bordes dorados y esa<br>última porción que todos quieren.</p><span class="pizza-time"><span data-icon="clock"></span> Desde las 6:00 p. m. · Horario de ejemplo</span></div></div>
+    <div class="pizza-toolbar"><span>HECHAS PARA COMPARTIR</span><span>Elige un tamaño para ver su precio de ejemplo</span></div>
+    <div id="pizza-grid" class="product-grid"></div><p class="section-note">Catálogo demostrativo. Los tamaños y precios son referenciales.</p></div>
+  </section>
+  <section id="promociones" class="section container reveal">
+    <div class="section-heading centered"><p class="eyebrow">LOS BUENOS PLANES SE COMPARTEN</p><h2>Más sabor. <em>Más juntos.</em></h2><p>Ideas para tu próxima mesa. Promociones ficticias de esta demo.</p></div><div id="promo-grid" class="promo-grid"></div>
+  </section>
+  <section class="oven-story reveal" aria-labelledby="story-title">
+    <div class="story-image bread-story"><img src="assets/hands.jpg" alt="Preparación artesanal de masa con harina" loading="lazy" width="700" height="900"><span>DE DÍA, EL AROMA DEL PAN.</span></div>
+    <div class="story-copy"><span data-icon="oven"></span><p class="eyebrow">EL CORAZÓN DE LA CASA</p><h2 id="story-title">Dos sabores.<br>Un mismo <em>horno.</em></h2><p>Por la mañana, amasamos el pan que acompaña tu día. Cuando cae la tarde, estiramos la masa y dejamos que la pizza reúna a todos.</p><p>Cambia el antojo. El cariño es el mismo.</p><a class="text-link" href="#nosotros">Conoce nuestra historia <span data-icon="arrow"></span></a></div>
+    <div class="story-image pizza-story"><img src="assets/oven.jpg" alt="Pizza entrando a un horno artesanal" loading="lazy" width="700" height="900"><span>DE NOCHE, EL PLAN ES PIZZA.</span></div>
+  </section>
+  <section id="nosotros" class="section container about-section reveal">
+    <div class="about-photo"><img src="assets/bakery.jpg" alt="Panes en el mostrador de una panadería" width="900" height="900" loading="lazy"><div class="about-note">La mesa está puesta.<br><em>Solo faltas tú.</em><span data-icon="heart"></span></div></div>
+    <div class="about-copy"><p class="eyebrow">DE NUESTRA FAMILIA A LA TUYA</p><h2>Hay sabores que<br>te hacen sentir<br><em>en casa.</em></h2><p>Creemos que las mejores cosas empiezan alrededor de una mesa. Por eso, cada día ponemos las manos en la masa y cuidamos esos pequeños detalles que se notan desde el primer bocado.</p><p>Pan para el desayuno, algo dulce para la tarde o una pizza para reunirnos. Queremos ser ese lugar al que siempre te apetece volver.</p><div class="about-signature">Con cariño, <span class="handwritten">la familia Miga & Fuego</span></div><small>Historia ilustrativa de la marca provisional.</small></div>
+  </section>
+  <section id="galeria" class="section gallery-section reveal"><div class="container"><div class="section-heading heading-row"><div><p class="eyebrow">UN VISTAZO A NUESTRO MUNDO</p><h2>Así se ve <em>lo bueno.</em></h2></div><p>Harina en las manos. Sonrisas en la mesa.<br>Fotografías de referencia para imaginarlo.</p></div><div id="gallery-grid" class="gallery-grid"></div></div></section>
+  <section id="ubicacion" class="section container location-section reveal"><div><p class="eyebrow">TE GUARDAMOS UN SITIO</p><h2>Nos vemos<br><em>por aquí.</em></h2><p class="placeholder-label">DATOS FICTICIOS · POR CONFIRMAR</p><div id="contact-details"></div><button class="button button-outline" data-contact="WhatsApp"><span data-icon="message"></span> Consultar contacto</button></div><div class="map-placeholder"><div class="map-streets" aria-hidden="true"></div><div class="map-card"><span class="map-pin" data-icon="pin"></span><h3>Aquí empieza el encuentro.</h3><p>El mapa y la dirección real<br>se añadirán próximamente.</p><span>VISTA ILUSTRATIVA · SIN UBICACIÓN REAL</span></div><span class="map-coordinate">TU BARRIO. TU HORNO. TU LUGAR.</span></div></section>
+  <section class="final-cta reveal"><span data-icon="sparkle" class="cta-sparkle"></span><p class="eyebrow">SIEMPRE HAY UN BUEN MOTIVO</p><h2>¿Pan para hoy o pizza<br>para <em>esta noche?</em></h2><div class="hero-actions"><a href="#panaderia" class="button button-cream"><span data-icon="bread"></span> Ver panadería <span data-icon="arrow"></span></a><a href="#pizzeria" class="button button-outline"><span data-icon="pizza"></span> Ver pizzería <span data-icon="arrow"></span></a></div><p class="handwritten">Tú pones la compañía. Nosotros, el sabor.</p></section>
+</main>
+<footer><div class="container footer-top"><a class="brand" href="#inicio"><span class="brand-icon" data-icon="oven"></span><span>Miga <i>&</i> Fuego<small>PANADERÍA & PIZZERÍA</small></span></a><p>Hecho con las manos.<br>Compartido con el corazón.</p><nav aria-label="Navegación del pie"><a href="#inicio">Inicio</a><a href="#panaderia">Panadería</a><a href="#pizzeria">Pizzería</a><a href="#promociones">Promociones</a><a href="#nosotros">Nosotros</a><a href="#ubicacion">Ubicación</a></nav><div class="socials"><span>PRONTO, MÁS CERCA</span><div><button data-contact="Instagram" aria-label="Instagram, próximamente">ig</button><button data-contact="Facebook" aria-label="Facebook, próximamente">f</button><button data-contact="TikTok" aria-label="TikTok, próximamente">tk</button><button data-contact="WhatsApp" aria-label="WhatsApp, próximamente" data-icon="message"></button></div></div></div><div class="container footer-bottom"><span>© 2026 Miga & Fuego. Todos los derechos reservados.</span><span>Demo visual · Sin pedidos ni pagos</span><a href="credits.html">Créditos de imágenes <span data-icon="arrow"></span></a></div></footer>
+<dialog id="detail-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Cerrar ventana" data-icon="close"></button><div id="dialog-content"></div></dialog>
+<noscript><p class="noscript">Activa JavaScript para explorar los catálogos y la galería. Esta página es una demo visual.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,114 @@
+[
+  {
+    "file": "bread.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1300&q=82",
+    "label": "Pan artesanal",
+    "page": "https://unsplash.com/photos/BliQD1m7gA0"
+  },
+  {
+    "file": "frances.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/13422413/pexels-photo-13422413.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Panes franceses, fotografía de referencia",
+    "page": "https://www.pexels.com/photo/13422413/"
+  },
+  {
+    "file": "croissant.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1677740929724-1aa2dc110721?auto=format&fit=crop&w=850&q=82",
+    "label": "Croissant · David Thielen",
+    "page": "https://unsplash.com/photos/njBYgZhR65o"
+  },
+  {
+    "file": "dulce.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1674724199009-fbea5cce61df?auto=format&fit=crop&w=850&q=82",
+    "label": "Pan dulce · Christelle Sison",
+    "page": "https://unsplash.com/photos/Jp_P50sl6uM"
+  },
+  {
+    "file": "empanada.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/13119102/pexels-photo-13119102.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Empanadas · Aleyda Balderas",
+    "page": "https://www.pexels.com/photo/13119102/"
+  },
+  {
+    "file": "pastel.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=850&q=82",
+    "label": "Pastel de chocolate",
+    "page": "https://unsplash.com/photos/"
+  },
+  {
+    "file": "pizza.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1692737580547-b45bb4a02356?auto=format&fit=crop&w=850&q=82",
+    "label": "Pizza · David Foodphototasty",
+    "page": "https://unsplash.com/photos/xIqVfW8XUt4"
+  },
+  {
+    "file": "americana.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Pizza americana, referencia",
+    "page": "https://www.pexels.com/photo/1146760/"
+  },
+  {
+    "file": "hawaiana.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/11710527/pexels-photo-11710527.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Pizza y piña · Evgeniya Davydova",
+    "page": "https://www.pexels.com/photo/11710527/"
+  },
+  {
+    "file": "suprema.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?auto=format&fit=crop&w=850&q=82",
+    "label": "Pizza suprema, referencia",
+    "page": "https://unsplash.com/photos/"
+  },
+  {
+    "file": "especial.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=850&q=82",
+    "label": "Pizza especial, referencia",
+    "page": "https://unsplash.com/photos/"
+  },
+  {
+    "file": "personalizable.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=850&q=82",
+    "label": "Pizza artesanal, referencia",
+    "page": "https://unsplash.com/photos/"
+  },
+  {
+    "file": "oven.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/5903451/pexels-photo-5903451.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Una pizza entrando al horno",
+    "page": "https://www.pexels.com/photo/5903451/"
+  },
+  {
+    "file": "hands.jpg",
+    "source": "pexels",
+    "image_url": "https://images.pexels.com/photos/20483146/pexels-photo-20483146.jpeg?auto=compress&cs=tinysrgb&w=1000",
+    "label": "Preparación artesanal de masa",
+    "page": "https://www.pexels.com/photo/20483146/"
+  },
+  {
+    "file": "ingredients.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=850&q=82",
+    "label": "Tomates e ingredientes",
+    "page": "https://unsplash.com/photos/"
+  },
+  {
+    "file": "bakery.jpg",
+    "source": "unsplash",
+    "image_url": "https://images.unsplash.com/photo-1746717489371-eb647210f472?auto=format&fit=crop&w=850&q=82",
+    "label": "Panadería · Lee Seunghyub",
+    "page": "https://unsplash.com/photos/vfrVtInoAZI"
+  }
+]
